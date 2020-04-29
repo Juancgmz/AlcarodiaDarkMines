@@ -17,12 +17,14 @@ public class PlayerMov : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Input del movimiento
         Vector2 moveImput = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
         moveVelocity = moveImput.normalized * playerSpeed;
     }
 
     private void FixedUpdate()
     {
+        //Ejecutar movimiento
         rb.MovePosition(rb.position + moveVelocity * Time.fixedDeltaTime);
     }
 }
