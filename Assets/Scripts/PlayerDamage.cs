@@ -10,16 +10,15 @@ public class PlayerDamage : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        print("Health: " + playerHealth);
+        
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.name == "Enemy")
+        if (collision.tag == "Enemy")
         {
-            print("Daño inflingido");
             playerHealth -= damage;
-            print("Vida = " + playerHealth);
         }
     }
+    
 }
