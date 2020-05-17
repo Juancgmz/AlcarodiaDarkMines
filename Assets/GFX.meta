@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/GFX.meta
 guid: 9a5553922875074478d2364069f595a6
+=======
+guid: 9ce88662571de1f4aba288829b9ff987
+>>>>>>> 33f27f9580849f573565f7f698d03dc389829050:Assets/SpritesBuenos.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
