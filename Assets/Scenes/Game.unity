@@ -1475,6 +1475,7 @@ GameObject:
   - component: {fileID: 1383165264}
   - component: {fileID: 1383165266}
   - component: {fileID: 1383165265}
+  - component: {fileID: 1383165268}
   - component: {fileID: 1383165267}
   m_Layer: 0
   m_Name: Player
@@ -1547,16 +1548,31 @@ MonoBehaviour:
   m_GameObject: {fileID: 1383165263}
   m_Enabled: 1
   m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53f8c4cce39622d4c9ae122f83cbc4f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectSlot1: 0
+  objectSlot2: 0
+  objectSlot3: 0
+--- !u!114 &1383165268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1383165263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 92ec061fdf594d849b3b1ff5f41dbf5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 100
   speed: 1
-  Fname: John
-  Sname: Bravo
-  Mname: Sins
-  Lname: Depp
-  name: Jonny
+  FirstName: John
+  SecondName: Bravo
+  MiddleName: Sins
+  LastName: Depp
+  FullName: Jonny
 --- !u!1 &1424469673
 GameObject:
   m_ObjectHideFlags: 0

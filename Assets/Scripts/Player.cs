@@ -6,5 +6,5 @@ public class Player : MonoBehaviour
 {
     public int HP = 100;
     public int speed = 1;
-    public string Fname = "John", Sname = "Bravo", Mname = "Sins", Lname = "Depp", name = "Jonny";
+    public string FirstName = "John", SecondName = "Bravo", MiddleName = "Sins", LastName = "Depp", FullName = "Jonny";
 }
