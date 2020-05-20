@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class IceButton : MonoBehaviour
 {
-    void OnMouseUp()
+    public void ButtonClick()
     {
-        print("Create Ice Mage");
+        Debug.Log("El objeto se crearía ahí");
     }
 }

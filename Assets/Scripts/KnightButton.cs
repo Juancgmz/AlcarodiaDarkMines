@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class KnightButton : MonoBehaviour
 {
-    void OnMouseUp()
+    public void ButtonClick()
     {
-        print("Create Knight");
+        Debug.Log("El objeto se crearía ahí");
     }
 }

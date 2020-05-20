@@ -1,11 +1,12 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class KhajitButton : MonoBehaviour
 {
-    void OnMouseUp()
+    public void ButtonClick()
     {
-        print("Create Khajit");
+        Debug.Log("El objeto se crearía ahí");
     }
 }

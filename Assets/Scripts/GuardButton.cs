@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class GuardButton : MonoBehaviour
 {
-   void OnMouseUp(){
-       print("Create Guard");
-   }
+    public void ButtonClick()
+    {
+        Debug.Log("El objeto se crearía ahí");
+    }
 }

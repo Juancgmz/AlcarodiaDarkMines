@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class MonkButton : MonoBehaviour
 {
-    void OnMouseUp()
+    public void ButtonClick()
     {
-        print("Create Monk");
+        Debug.Log("El objeto se crearía ahí");
     }
 }

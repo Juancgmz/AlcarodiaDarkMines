@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class FireButton : MonoBehaviour
 {
-   void OnMouseUp(){
-       print("Create Fire Mage");
-   }
+    public void ButtonClick()
+    {
+        Debug.Log("El objeto se crearía ahí");
+    }
 }
