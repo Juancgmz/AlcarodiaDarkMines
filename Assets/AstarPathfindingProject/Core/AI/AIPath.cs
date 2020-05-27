@@ -5,6 +5,8 @@ using System.Collections.Generic;
 namespace Pathfinding {
 	using Pathfinding.RVO;
 	using Pathfinding.Util;
+    using System.Runtime;
+    using System.Security.Cryptography;
 
 	/// <summary>
 	/// AI for following paths.
